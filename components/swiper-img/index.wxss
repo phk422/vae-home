@@ -1,0 +1,14 @@
+/* components/swiper/index.wxss */
+.img {
+  width: 100%;
+  height: 365rpx;
+}
+
+.swiper {
+  height: 380rpx;
+}
+
+.swiper .img {
+  width: 100%;
+  height: 100%;
+}

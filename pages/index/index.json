@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "swiper-img": "/components/swiper-img/index",
+    "icon-text": "/components/icon-text/index",
+    "title-bar": "/components/title-bar/index",
+    "vae-board": "/components/vae-board/index",
+    "dynamic": "/components/dynamic/index"
+  }
+}

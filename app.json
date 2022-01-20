@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/circle/index",
+    "pages/find/index",
+    "pages/message/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Vae+",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8c9095",
+    "selectedColor": "#2a48da",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/img/tabbar/home.png",
+        "selectedIconPath": "assets/img/tabbar/home_active.png",
+        "text": "vae"
+      },
+      {
+        "pagePath": "pages/circle/index",
+        "iconPath": "assets/img/tabbar/circle.png",
+        "selectedIconPath": "assets/img/tabbar/circle_active.png",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "assets/img/tabbar/find.png",
+        "selectedIconPath": "assets/img/tabbar/find_active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "assets/img/tabbar/message.png",
+        "selectedIconPath": "assets/img/tabbar/message_active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "iconPath": "assets/img/tabbar/profile.png",
+        "selectedIconPath": "assets/img/tabbar/profile_active.png",
+        "text": "我"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,5 @@
+<!--components/icon-text/index.wxml-->
+<view class="icon-text">
+  <image class="img" src="{{item.icon}}"></image>
+  <view class="txt">{{item.txt}}</view>
+</view>

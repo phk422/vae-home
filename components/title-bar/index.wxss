@@ -1,0 +1,25 @@
+/* components/title-bar/index.wxss */
+.title-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  position: absolute;
+  bottom: 2rpx;
+  height: 10rpx;
+  width: 60rpx;
+  background-color: rgba(68, 91, 216, .6);
+}
+
+.left {
+  font-weight: 700;
+  font-size: 30rpx;
+}
+
+.right {
+  font-size: 25rpx;
+  color: #909297;
+}
+

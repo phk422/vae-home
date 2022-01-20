@@ -1,0 +1,12 @@
+function formartNum(num) {
+  num = Number(num)
+  if (num <= 9999) {
+    return num
+  }
+  if (num > 10000) {
+    return (num / 10000).toFixed(1) + "万"
+  }
+}
+module.exports = {
+  formartNum: formartNum
+}

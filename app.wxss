@@ -1,0 +1,5 @@
+/**app.wxss**/
+.common-margin {
+  margin: 0 40rpx;
+}
+

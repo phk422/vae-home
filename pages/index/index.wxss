@@ -1,0 +1,15 @@
+/**index.wxss**/
+.oper-bars {
+  display: flex;
+  justify-content:space-around ;
+  margin: 30rpx 50rpx 0;
+}
+
+.common-margin {
+  margin-top: 40rpx;
+}
+
+.dynamic {
+  margin-top: 50rpx;
+}
+

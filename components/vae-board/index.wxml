@@ -1,0 +1,20 @@
+<!--components/vae-board/index.wxml-->
+<view class="vae-board">
+  <view class="left">
+    <image class="img" src="/assets/vaeimg/vaeimg1.jpg" mode="aspectFill"></image>
+    <view class="icon-num">6</view>
+  </view>
+
+  <view class="right">
+    <view class="info">
+      <image class="avatar" src="/assets/vaeimg/vae-avatar.jpg"></image>
+      <view class="vae-name">许嵩</view>
+    </view>
+    <view class="content">
+      最近
+    </view>
+    <view class="time">
+      2022-01-19 22:22:22
+    </view>
+  </view>
+</view>

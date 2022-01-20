@@ -1,0 +1,22 @@
+<!--components/dynamic/index.wxml-->
+<!-- 引入utils -->
+<wxs src="../../utils/formart-num.wxs" module="tools" />
+<view class="dynamic">
+  <image class="image" src="{{item.img}}"></image>
+  <view class="detail">
+    <text class="content">{{item.title}}</text>
+    <view class="bottom">
+      <text class="type">{{item.type}}</text>
+      <view class="right-icon">
+        <view class="icon-num">
+          <view class="icon comment-icon"></view>
+          <text class="num">{{tools.formartNum(item.comments)}}</text>
+        </view>
+        <view class="icon-num">
+          <view class="icon star-icon"></view>
+          <text class="num">{{tools.formartNum(item.stars)}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

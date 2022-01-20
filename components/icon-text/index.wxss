@@ -1,0 +1,17 @@
+/* components/icon-text/index.wxss */
+.icon-text {
+  width: 90rpx;
+  text-align: center;
+}
+
+.img {
+  /* background-color: #1f69ad; */
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.txt {
+  margin-top: 4px;
+  font-size: 26rpx;
+}
