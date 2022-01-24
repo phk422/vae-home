@@ -4,7 +4,7 @@
   padding: 0 20rpx;
   height: 300rpx;
   border-radius: 20rpx;
-  box-shadow: -8px 9px 6px 1px #edeef0;
+  box-shadow: -6px 6px 6px 1px #edeef0;
   background-color: #f2f5fe;
   align-items: center;
 }

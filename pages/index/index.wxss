@@ -13,3 +13,19 @@
   margin-top: 50rpx;
 }
 
+.vaes {
+  margin-top: 40rpx;
+  white-space: nowrap;
+  height: 320rpx;
+}
+
+.vaes .vae-item:first-child {
+  padding-left: 56rpx;
+}
+
+.vae-item {
+  display: inline-block;
+  width: 640rpx;
+  padding: 0 18rpx ;
+}
+

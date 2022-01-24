@@ -10,9 +10,15 @@
   <title-bar title="许嵩来了" />
 </view>
 
-<view class="common-margin">
-  <vae-board />
-</view>
+<scroll-view 
+  class="vaes"
+  scroll-x
+  enhanced
+  paging-enabled>
+  <view wx:for="{{4}}" class="vae-item">
+    <vae-board />
+  </view>
+</scroll-view>
 
 <view class="dynamic common-margin">
   <title-bar title="官方动态" />
