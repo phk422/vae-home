@@ -13,7 +13,7 @@
 
 首页：
 
-![首页](https://gitee.com/phk422/my-img/raw/master/vae-home/vaehome.png)
+![首页](https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome.png?raw=true)
 
 ## 如果你觉得不错，记得给个star!
 
