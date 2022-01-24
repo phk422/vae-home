@@ -12,8 +12,9 @@
 # 项目展示
 
 首页：
-
-![首页](https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome.png?raw=true)
+<br>
+<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome.png?raw=true" width="300px" />
+<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome2.png?raw=true" width="300px" />
 
 ## 如果你觉得不错，记得给个star!
 
