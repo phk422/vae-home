@@ -1,0 +1,5 @@
+<!--components/scroll-txt/index.wxml-->
+<view class="txt-wrapper">
+  <view id="txt" class="txt {{isScroll ? 'scroll' : ''}}">{{txt}}</view>
+  <view wx:if="{{isScroll}}" class="txt {{isScroll ? 'scroll' : ''}}">{{txt}}</view>
+</view>

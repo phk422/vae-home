@@ -1,4 +1,7 @@
 <!--index.wxml-->
+<!-- 导航栏 -->
+<navbar />
+
 <!-- 轮播图 -->
 <swiper-img banners="{{banners}}" />
 

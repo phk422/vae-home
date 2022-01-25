@@ -1,0 +1,9 @@
+<!--pages/index/cpns/navbar/index.wxml-->
+<view class="navbar" style="height: {{navHeight}}px">
+  <view class="content">
+    <image class="logo" src="/assets/img/navbar/vaelogo.png" mode="widthFix"></image>
+    <scroll-txt txt="{{txt}}" />
+  </view>
+</view>
+<!-- 解决fixed高度坍塌问题 -->
+<view style="height: {{navHeight}}px"></view>

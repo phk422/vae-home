@@ -7,6 +7,8 @@
 - 组件化思想
 - 项目目录划分
 - 小程序的基本开发模式
+- 自定义导航栏
+- 文字无限滚动组件的封装
 - 等等
 
 # 项目展示
@@ -14,7 +16,7 @@
 首页：
 <br>
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome.png?raw=true" width="300px" />
-<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome2.png?raw=true" width="300px" />
+<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome2.png?raw=true" width="300px" style="margin-left: 15px;" />
 
 ## 如果你觉得不错，记得给个star!
 

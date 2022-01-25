@@ -2,6 +2,7 @@
 Page({
   data: {
     banners: [
+      "/assets/vaeimg/banner3.jpg",
       "/assets/vaeimg/song-liuxiang.jpg",
       "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.doubanio.com%2Fview%2Fgroup_topic%2Fl%2Fpublic%2Fp440489316.jpg&refer=http%3A%2F%2Fimg9.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644573250&t=6d631916f57d850e1236d9954e7c8b74",
       "/assets/vaeimg/banner2.jpg",
