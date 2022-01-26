@@ -23,12 +23,13 @@ Component({
   lifetimes: {
     attached: async function() {
       // 计算是否滚动
+      if(!this.properties.scroll) return
       const txtEle = await querySelector("#txt", this)
       const txtWidth = txtEle[0].width
       const txtWrapperEle = await querySelector(".txt-wrapper", this)
       const txtWrapperWidth = txtWrapperEle[0].width
       this.setData({
-        isScroll: this.properties.scroll && txtWidth - 45 > txtWrapperWidth
+        isScroll: txtWidth - 45 > txtWrapperWidth
       })
     }
   }
