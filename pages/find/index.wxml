@@ -1,2 +1,14 @@
 <!--pages/find/index.wxml-->
-<text>pages/find/index.wxml</text>
+<image class="img" src="/assets/vaeimg/banner3.jpg" mode="widthFix"></image>
+
+<view class="search-container">
+  <input class="search" placeholder="输入对方的ID号或昵称" placeholder-class="search-place" />
+</view>
+
+<view class="operation">
+  <block wx:for="{{menus}}" wx:for-item="menu" wx:key="*this">
+    <view class="menu-container {{menu.length === 1 ? 'pd':''}}">
+      <menu-item wx:for="{{menu}}" item="{{item}}" />
+    </view>
+  </block>
+</view>

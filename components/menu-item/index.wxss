@@ -1,0 +1,33 @@
+/* components/menu-item/index.wxss */
+.menu-item {
+  display: flex;
+  align-items: center;
+  height: 104rpx;
+  background-color: #fff;
+  padding: 0 26rpx;
+}
+
+.menu-item .icon {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #00f;
+  margin-right: 20rpx;
+}
+
+.menu-item .content {
+  flex: 1;
+}
+
+.menu-item .end-icon {
+  text-align: right;
+  width: 200rpx;
+  font-size: 28rpx;
+  color: #909297;
+}
+
+.arrow-icon {
+  text-align: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALpJREFUSEtjZKAxYKSx+QyjFhAM4dEgGsJBdOPW/bnMjH8KVVVVP+HzBtmRfOPW/f0MDAwODAyMNRpqCq24LMFqwa1bD4IIBe5fhv9ljAwM5hB1jG8YGP/XaagqTkfXh9WC67fv4XQR3ID/jM4ICxg+/PvH0KiloTiBKAsIuR4kDw+i//+nMTOx9Kmqyt3Fpo+yOGD836+hqrSJJpF8+/ZtdlVV1Z+EfEu2DwgZDJMftYBgSI0G0cAHEQBGpy8ZHuNmkgAAAABJRU5ErkJggg==) no-repeat;
+  width: 50rpx;
+  height: 50rpx;
+}

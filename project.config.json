@@ -49,23 +49,23 @@
   "scripts": {},
   "isGameTourist": false,
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "pages/find/index",
+          "pathName": "pages/find/index",
+          "scene": null
+        }
+      ]
     }
   }
 }
