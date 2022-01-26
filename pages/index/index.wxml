@@ -5,14 +5,15 @@
 <!-- 轮播图 -->
 <swiper-img banners="{{banners}}" />
 
+<!-- 操作栏 -->
 <view class="oper-bars">
   <icon-text wx:for="{{oprs}}" wx:key="*this" item="{{item}}" />
 </view>
 
+<!-- 动态 -->
 <view class="common-margin">
   <title-bar title="许嵩来了" />
 </view>
-
 <scroll-view 
   class="vaes"
   scroll-x
@@ -23,10 +24,10 @@
   </view>
 </scroll-view>
 
+<!-- 官方动态 -->
 <view class="dynamic common-margin">
   <title-bar title="官方动态" />
 </view>
-
 <view class="common-margin">
   <block wx:for="{{dynamics}}" wx:key="*this">
     <dynamic item="{{item}}" />

@@ -1,11 +1,4 @@
 /* pages/index/cpns/navbar/index.wxss */
-.navbar {
-  position: fixed;
-  width: 100%;
-  background-color: #fff;
-  z-index: 999;
-}
-
 .content {
   position: absolute;
   left: 30rpx;

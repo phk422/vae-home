@@ -1,0 +1,6 @@
+<!--components/navbar/index.wxml-->
+<view class="navbar" style="height: {{navHeight}}px;background-color: {{backgroundColor}}">
+  <slot></slot>
+</view>
+<!-- 解决fixed高度坍塌问题 -->
+<view style="height: {{navHeight}}px"></view>

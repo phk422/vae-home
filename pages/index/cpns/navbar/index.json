@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
+    "navbar": "/components/navbar/index",
     "scroll-txt": "/components/scroll-txt/index"
   }
 }
