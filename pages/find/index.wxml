@@ -6,9 +6,5 @@
 </view>
 
 <view class="operation">
-  <block wx:for="{{menus}}" wx:for-item="menu" wx:key="*this">
-    <view class="menu-container {{menu.length === 1 ? 'pd':''}}">
-      <menu-item wx:for="{{menu}}" item="{{item}}" />
-    </view>
-  </block>
+  <menu-group menus="{{menus}}" />
 </view>
