@@ -7,6 +7,10 @@ Component({
     item: {
       type: Object,
       value: {}
+    },
+    rightIcon: {
+      type: String,
+      value: "arrow-v1"
     }
   },
 
