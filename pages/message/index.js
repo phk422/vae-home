@@ -1,11 +1,18 @@
 // pages/message/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    menus: [
+      [
+        {txt: "官方消息"},
+        {txt: "@我的"},
+        {txt: "评论"},
+        {txt: "赞"},
+        {txt: "陌生人", rightTxt: "2021/12/13"},
+      ]
+    ]
   },
 
   /**
