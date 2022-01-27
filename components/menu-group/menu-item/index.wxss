@@ -8,9 +8,8 @@
 }
 
 .menu-item .icon {
-  width: 50rpx;
-  height: 50rpx;
-  background-color: #00f;
+  width: 64rpx;
+  height: 64rpx;
   margin-right: 20rpx;
 }
 

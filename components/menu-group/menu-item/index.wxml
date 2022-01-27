@@ -1,6 +1,6 @@
 <!--components/menu-item/index.wxml-->
 <view class="menu-item">
-  <image class="icon" src="" mode="widthFix"></image>
+  <image class="icon" src="{{item.icon}}" mode="widthFix"></image>
   <view class="content">{{item.txt}}</view>
   <view wx:if="{{item.rightTxt}}" class="end-icon">{{item.rightTxt}}</view>
   <view wx:else class="right-icon {{rightIcon}}">{{item.rightTxt}}</view>
