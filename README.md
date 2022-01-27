@@ -24,7 +24,7 @@
 
 消息：
 <br>
-<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/message.png?raw=true" width="300px" />
+<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/message.jpg?raw=true" width="300px" />
 
 
 ## 如果你觉得不错，记得给个star!
