@@ -26,7 +26,7 @@
 <br>
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/message.jpg?raw=true" width="300px" />
 
-消息：
+我：
 <br>
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/profile.jpg?raw=true" width="300px" />
 
