@@ -18,6 +18,10 @@
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome.png?raw=true" width="300px" />
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/vaehome2.png?raw=true" width="300px" style="margin-left: 15px;" />
 
+圈子：
+<br>
+<img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/circle.png?raw=true" width="300px" />
+
 发现：
 <br>
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/find.png?raw=true" width="300px" />

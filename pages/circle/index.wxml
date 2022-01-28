@@ -1,2 +1,7 @@
 <!--pages/circle/index.wxml-->
-<text>pages/circle/index.wxml</text>
+<view class="navbar" style="height: {{navH}}px;margin-top: {{navTop}}px">
+  <view class="search-icon"></view>
+  <view class="tabs">
+    <tabbar tabs="{{tabs}}" />
+  </view>
+</view>

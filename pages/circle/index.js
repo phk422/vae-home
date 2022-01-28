@@ -1,11 +1,14 @@
 // pages/circle/index.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    navTop: app.globalData.navTop,
+    navH: app.globalData.navHeight - app.globalData.navTop,
+    tabs: ["广场", "热门", "关注"],
   },
 
   /**

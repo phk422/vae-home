@@ -37,7 +37,8 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "minifyWXML": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.22.0",
@@ -75,6 +76,12 @@
         {
           "name": "pages/profile/index",
           "pathName": "pages/profile/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/circle/index",
+          "pathName": "pages/circle/index",
           "scene": null
         }
       ]

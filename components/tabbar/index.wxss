@@ -1,0 +1,22 @@
+/* components/tabbar/index.wxss */
+.tabbar {
+  display: flex;
+}
+
+.active.item {
+  color: #3a5de7;
+}
+
+.item {
+  width: 140rpx;
+  text-align: center;
+}
+
+.active.item .line {
+  position: relative;
+  left: 53rpx;
+  margin-top: 10rpx;
+  width: 34rpx;
+  height: 4rpx;
+  background-color: #3a5de7;
+}
