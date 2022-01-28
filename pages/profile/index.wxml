@@ -1,2 +1,5 @@
 <!--pages/profile/index.wxml-->
-<text>pages/profile/index.wxml</text>
+<view class="operation">
+  <menu-group menus="{{menus}}" />
+</view>
+

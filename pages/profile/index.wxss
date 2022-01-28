@@ -1,1 +1,9 @@
 /* pages/profile/index.wxss */
+page {
+  background-color: #f5f7fa;
+  margin-bottom: 90rpx;
+}
+
+.operation {
+  padding: 0 20rpx;
+}

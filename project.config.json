@@ -69,6 +69,12 @@
         {
           "name": "pages/message/index",
           "pathName": "pages/message/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/profile/index",
+          "pathName": "pages/profile/index",
           "scene": null
         }
       ]
