@@ -4,8 +4,9 @@
     <view class="item {{ activeIndex === index ? 'active':'' }}"
           bindtap="itemClick"
           data-index="{{index}}" >
-      <text>{{item}}</text>
+      <text>{{item.name}}</text>
       <view class="line"></view>
+      <view wx:if="{{item.isDot}}" class="dot"></view>
     </view>
   </block>
 </view>

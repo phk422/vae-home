@@ -17,6 +17,12 @@ Component({
     activeIndex: 0
   },
 
+  lifetimes: {
+    attached: function() {
+      this.triggerEvent("change-tab", this.data.activeIndex)
+    }
+  },
+
   /**
    * 组件的方法列表
    */
@@ -25,7 +31,7 @@ Component({
       this.setData({
         activeIndex: e.currentTarget.dataset.index
       })
+      this.triggerEvent("change-tab", this.data.activeIndex)
     }
-
   }
 })

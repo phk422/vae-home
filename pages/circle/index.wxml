@@ -2,6 +2,21 @@
 <view class="navbar" style="height: {{navH}}px;margin-top: {{navTop}}px">
   <view class="search-icon"></view>
   <view class="tabs">
-    <tabbar tabs="{{tabs}}" />
+    <tabbar tabs="{{tabs}}" bind:change-tab="changeTab" />
   </view>
+</view>
+
+<!-- 广场 -->
+<view wx:if="{{currentIndex === 0}}" class="square">
+  <square />
+</view>
+
+<!-- 热门 -->
+<view wx:elif="{{currentIndex === 1}}" class="hot">
+  <hot />
+</view>
+
+<!-- 关注 -->
+<view wx:elif="{{currentIndex === 2}}" class="attention">
+  <attention />
 </view>

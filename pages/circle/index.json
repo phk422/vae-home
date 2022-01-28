@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "tabbar": "/components/tabbar/index"
+    "tabbar": "/components/tabbar/index",
+    "square": "./square/index",
+    "hot": "./hot/index",
+    "attention": "./attention/index"
   },
   "navigationStyle": "custom"
 }
