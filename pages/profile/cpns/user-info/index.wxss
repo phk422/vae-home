@@ -78,8 +78,8 @@
   height: 50rpx;
   width: 100%;
   border-bottom: 8rpx solid #425cde;
+  transition: width .2s linear;
 }
-
 
 .lv .grade {
   position: absolute;

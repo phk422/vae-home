@@ -7,7 +7,7 @@ Component({
   properties: {
     grade: {
       type: String,
-      value: "60%"
+      value: "0"
     }
   },
 
@@ -21,13 +21,17 @@ Component({
   
   lifetimes: {
     created: function() {
-
       wx.getUserInfo({
         success: res => {
           this.setData({
             userInfo: res.userInfo
           })
         }
+      })
+    },
+    attached: function() {
+      this.setData({
+        grade: "60%"
       })
     }
   },
