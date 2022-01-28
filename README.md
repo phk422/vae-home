@@ -26,6 +26,39 @@
 <br>
 <img src="https://github.com/phk422/vae-home/blob/main/assets/proto-img/message.jpg?raw=true" width="300px" />
 
+# 项目目录结构
+
+```
+├─assets                 静态文件目录，用于存放图标/资源图等
+│  ├─img                 项目图标
+│  │  ├─dynamic
+│  │  ├─find
+│  │  ├─message
+│  │  ├─navbar
+│  │  ├─opr-img
+│  │  └─tabbar
+│  ├─proto-img           原型图，来自vae+ app 截图，这里推荐一波vae+ app, 因为一个人，爱上一群人！
+│  └─vaeimg              资源图片，有时间的话写个接口
+├─components             项目公共组件
+│  ├─dynamic             动态组件
+│  ├─icon-text
+│  ├─menu-group
+│  │  └─menu-item
+│  ├─navbar
+│  ├─scroll-txt
+│  ├─swiper-img
+│  ├─title-bar
+│  └─vae-board
+├─pages                  项目所有界面
+│  ├─circle              圈子
+│  ├─find                发现
+│  ├─index               首页
+│  │  └─cpns             首页组件抽取
+│  │      └─navbar       首页导航栏
+│  ├─message             消息
+│  └─profile             我的
+└─utils                  项目工具包目录
+```
 
 ## 如果你觉得不错，记得给个star!
 
