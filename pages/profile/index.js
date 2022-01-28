@@ -10,17 +10,17 @@ Page({
       // 图标来源：https://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.dc64b3430&cid=32622
       [
         {
-          icon: "/assets/img/find/position.png",
+          icon: "/assets/img/profile/account.png",
           txt: "我的账户",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/group.png",
+          icon: "/assets/img/profile/collect.png",
           txt: "收藏",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/group.png",
+          icon: "/assets/img/profile/gift.png",
           txt: "邀请好友有礼",
           rightIcon: "arrow-v2"
         }
@@ -28,17 +28,17 @@ Page({
 
       [
         {
-          icon: "/assets/img/find/live.png",
+          icon: "/assets/img/profile/medal.png",
           txt: "勋章",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/group.png",
+          icon: "/assets/img/profile/card.png",
           txt: "纪念卡",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/group.png",
+          icon: "/assets/img/profile/tag.png",
           txt: "荧光棒",
           rightIcon: "arrow-v2"
         }
@@ -46,22 +46,22 @@ Page({
 
       [
         {
-          icon: "/assets/img/find/live.png",
+          icon: "/assets/img/profile/we.png",
           txt: "意见反馈",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/task.png",
+          icon: "/assets/img/profile/help.png",
           txt: "帮助中心",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/task.png",
+          icon: "/assets/img/profile/profile.png",
           txt: "个人资料",
           rightIcon: "arrow-v2"
         },
         {
-          icon: "/assets/img/find/rank.png",
+          icon: "/assets/img/profile/set.png",
           txt: "设置",
           rightIcon: "arrow-v2"
         }
