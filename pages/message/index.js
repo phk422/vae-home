@@ -28,6 +28,32 @@ Page({
           rightTxt: "2021/12/13"
         },
       ]
+    ],
+    chats: [
+      {
+        iconTxt: "成都",
+        content: {
+          cityName: "成都分会①",
+          msg: "codervae 已加入群聊"
+        },
+        rightTxt: "星期二"
+      },
+      {
+        iconTxt: "绵阳",
+        content: {
+          cityName: "绵阳分会②",
+          msg: "许嵩 已加入群聊"
+        },
+        rightTxt: "星期三"
+      },
+      {
+        iconTxt: "绵阳",
+        content: {
+          cityName: "绵阳分会③",
+          msg: "vae 已加入群聊"
+        },
+        rightTxt: "星期日"
+      }
     ]
   },
 

@@ -16,6 +16,10 @@ Component({
           }
         ]
       ]
+    },
+    iconType: {
+      type: String,
+      value: ""
     }
   },
 

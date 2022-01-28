@@ -1,1 +1,4 @@
 /* pages/message/index.wxss */
+.chat {
+  margin-bottom: 16rpx;
+}

@@ -1,6 +1,7 @@
 /* pages/find/index.wxss */
 page {
   background-color: #f5f7fa;
+  margin-bottom: 90rpx;
 }
 
 .img {

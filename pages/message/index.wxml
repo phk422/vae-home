@@ -1,2 +1,6 @@
 <!--pages/message/index.wxml-->
-<menu-group menus="{{menus}}" />
+<menu-group menus="{{menus}}" icon-type="iconv2" />
+
+<view class="chat" wx:for="{{chats}}" wx:key="*this">
+  <menu-item icon-type="iconv2" item="{{item}}" />
+</view>

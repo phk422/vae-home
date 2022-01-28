@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "menu-group": "/components/menu-group/index"
+    "menu-group": "/components/menu-group/index",
+    "menu-item": "/components/menu-group/menu-item/index"
   },
   "navigationBarTitleText": "消息"
 }

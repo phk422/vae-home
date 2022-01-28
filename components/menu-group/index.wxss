@@ -10,7 +10,3 @@
 .menu-container.pd {
   padding: 10rpx 0;
 }
-
-.menu-container:last-of-type {
-  margin-bottom: 90rpx;
-}

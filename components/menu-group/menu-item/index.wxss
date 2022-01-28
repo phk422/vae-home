@@ -13,6 +13,23 @@
   margin-right: 20rpx;
 }
 
+.menu-item .icon.txt {
+  text-align-last: justify;
+  color: #fff;
+  background-color: #f4c64e;
+  border-radius: 10rpx;
+}
+
+.menu-item .icon.txt text {
+  margin: 0 6rpx;
+}
+
+.menu-item .iconv2 {
+  width: 88rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+
 .menu-item .content {
   flex: 1;
 }
@@ -22,6 +39,12 @@
   width: 200rpx;
   font-size: 28rpx;
   color: #909297;
+}
+
+.detail {
+  display: inline-block;
+  color: #b9acb1;
+  font-size: 28rpx;
 }
 
 .right-icon {

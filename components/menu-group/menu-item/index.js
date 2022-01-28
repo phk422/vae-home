@@ -11,6 +11,10 @@ Component({
     rightIcon: {
       type: String,
       value: "arrow-v1"
+    },
+    iconType: {
+      type: String,
+      value: ""
     }
   },
 

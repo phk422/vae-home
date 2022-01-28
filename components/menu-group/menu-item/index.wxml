@@ -1,7 +1,20 @@
 <!--components/menu-item/index.wxml-->
 <view class="menu-item">
-  <image class="icon" src="{{item.icon}}" mode="widthFix"></image>
-  <view class="content">{{item.txt}}</view>
+  <view wx:if="{{item.iconTxt}}" class="icon txt {{iconType}}">
+    <text>{{item.iconTxt}}</text>
+  </view>
+  <image wx:else class="icon {{iconType}}" src="{{item.icon}}" mode="widthFix"></image>
+  <view class="content">
+    <!-- 菜单 -->
+    <block wx:if="{{item.txt}}">
+      {{item.txt}}
+    </block>
+    <!-- 聊天 -->
+    <block wx:else>
+      <view>{{item.content.cityName}}</view>
+      <text class="detail">{{item.content.msg}}</text>
+    </block>
+  </view>
   <view wx:if="{{item.rightTxt}}" class="end-icon">{{item.rightTxt}}</view>
   <view wx:else class="right-icon {{rightIcon}}">{{item.rightTxt}}</view>
 </view>
