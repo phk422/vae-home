@@ -1,5 +1,7 @@
 {
   "usingComponents": {
+    "user-info": "./cpns/user-info/index",
     "menu-group": "/components/menu-group/index"
-  }
+  },
+  "navigationStyle": "custom"
 }

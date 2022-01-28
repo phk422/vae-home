@@ -1,4 +1,6 @@
 <!--pages/profile/index.wxml-->
+<user-info />
+
 <view class="operation">
   <menu-group menus="{{menus}}" />
 </view>

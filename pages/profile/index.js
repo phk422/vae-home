@@ -1,4 +1,5 @@
 // pages/profile/index.js
+const app = getApp()
 Page({
 
   /**

@@ -1,0 +1,35 @@
+<!--pages/profile/cpns/user-info/index.wxml-->
+<view class="user-info">
+  <view class="content" style="top: {{navHeight}}px;">
+    <view class="header">
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+      <view class="info">
+        <view class="nickname">定格子</view>
+        <view class="msg">
+          <text>ID: 2323</text>
+          <text>人气: 2222</text>
+        </view>
+      </view>
+      <view class="go-in">去主页</view>
+    </view>
+
+    <view class="footer">
+      <view class="item">
+        <view>粉丝</view>
+        <view>76</view>
+      </view>
+      <view class="item">
+        <view>关注</view>
+        <view>6</view>
+      </view>
+      <view class="item">
+        <view>好友</view>
+        <view>28</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="lv" style="width: {{grade}};">
+    <view class="grade">Lv21</view>
+  </view>
+</view>
