@@ -1,1 +1,22 @@
 /* pages/circle/square/index.wxss */
+.menu-swiper {
+  background-color: #fff;
+  height: 350rpx;
+}
+
+.menu-swiper .swiper-item .menus {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  height: 320rpx;
+}
+
+.menu-swiper .swiper-item .item {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.mt {
+  margin-top: 20rpx;
+}

@@ -1,9 +1,13 @@
 /* pages/circle/index.wxss */
+page {
+  background-color: #f5f7fa;
+}
 
 .navbar {
   display: flex;
   /* align-items: center; */
   padding: 16rpx 20rpx 0;
+  background-color: #fff;
 }
 
 .search-icon {

@@ -1,0 +1,19 @@
+<!--pages/circle/square/cpns/hot-topic/index.wxml-->
+
+<view class="hot class">
+  <view class="title">
+    <tatile-bar title="热门话题" />
+  </view>
+  <swiper class="swiper" next-margin="20rpx">
+    <swiper-item wx:for="{{datas}}" wx:for-item="data" class="swiper-item">
+      <view wx:for="{{data}}" wx:for-item="items" class="topic">
+        <view wx:for="{{items}}" class="item">
+          <text class="jh"># </text>
+          <text>{{item.title}}</text>
+          <text wx:if="{{item.isHot}}" class="tail">荐</text>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+

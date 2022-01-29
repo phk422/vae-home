@@ -1,5 +1,5 @@
 <!--pages/circle/index.wxml-->
-<view class="navbar" style="height: {{navH}}px;margin-top: {{navTop}}px">
+<view class="navbar" style="height: {{navH}}px;padding-top: {{navTop}}px">
   <view class="search-icon"></view>
   <view class="tabs">
     <tabbar tabs="{{tabs}}" bind:change-tab="changeTab" />
@@ -7,16 +7,16 @@
 </view>
 
 <!-- 广场 -->
-<view wx:if="{{currentIndex === 0}}" class="square">
+<view style="display: {{currentIndex === 0 ? 'block':'none'}}" class="square">
   <square />
 </view>
 
 <!-- 热门 -->
-<view wx:elif="{{currentIndex === 1}}" class="hot">
+<view style="display: {{currentIndex === 1 ? 'block':'none'}}" class="hot">
   <hot />
 </view>
 
 <!-- 关注 -->
-<view wx:elif="{{currentIndex === 2}}" class="attention">
+<view style="display: {{currentIndex === 2 ? 'block':'none'}}" class="attention">
   <attention />
 </view>

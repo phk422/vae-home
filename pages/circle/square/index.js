@@ -11,7 +11,10 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    data: {
+      txt: "哈哈哈",
+      icon: "/assets/img/opr-img/trip.png"
+    }
   },
 
   /**

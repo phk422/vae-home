@@ -1,4 +1,7 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "icon-text": "/components/icon-text/index",
+    "hot-topic": "./cpns/hot-topic/index"
+  }
 }
