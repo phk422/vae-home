@@ -1,6 +1,6 @@
 <!--components/title-bar/index.wxml-->
 <view class="title-bar">
   <view class="left">{{title}}</view>
-  <view class="line"></view>
+  <view wx:if="{{showLine}}" class="line"></view>
   <view class="right">更多</view>
 </view>

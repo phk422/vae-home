@@ -17,19 +17,15 @@
   margin-top: 50rpx;
 }
 
-.vaes {
-  margin-top: 40rpx;
-  white-space: nowrap;
+.vae-swipper {
   height: 320rpx;
+  margin-top: 40rpx;
 }
 
-.vaes .vae-item:first-child {
-  padding-left: 56rpx;
+.vae-swipper .item .board {
+  position: relative;
+  left: 20rpx;
+  margin-right: 26rpx;
 }
 
-.vae-item {
-  display: inline-block;
-  width: 640rpx;
-  padding: 0 18rpx ;
-}
 

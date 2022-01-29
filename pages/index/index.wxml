@@ -12,21 +12,19 @@
 
 <!-- 动态 -->
 <view class="common-margin">
-  <title-bar title="许嵩来了" />
+  <title-bar title="许嵩来了" show-line />
 </view>
-<scroll-view 
-  class="vaes"
-  scroll-x
-  enhanced
-  paging-enabled>
-  <view wx:for="{{4}}" class="vae-item">
-    <vae-board />
-  </view>
-</scroll-view>
+<swiper class="vae-swipper" next-margin="40rpx" previous-margin="30rpx">
+  <swiper-item class="item" wx:for="{{6}}">
+    <view class="board">
+      <vae-board />
+    </view>
+  </swiper-item>
+</swiper>
 
 <!-- 官方动态 -->
 <view class="dynamic common-margin">
-  <title-bar title="官方动态" />
+  <title-bar title="官方动态" show-line />
 </view>
 <view class="common-margin">
   <block wx:for="{{dynamics}}" wx:key="*this">

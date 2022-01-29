@@ -6,6 +6,10 @@ Component({
   properties: {
     title: {
       type: String
+    },
+    showLine: {
+      type: Boolean,
+      value: false
     }
   },
 
