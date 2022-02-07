@@ -1,0 +1,28 @@
+/* baseui/nav-bar/index.wxss */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  text-align: center;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+}
+
+.center {
+  flex: 1;
+}
+
+/* 默认插槽实现方案：通过css实现 */
+.center-title {
+  display: none;
+}
+
+.center-slot:empty + .center-title {
+  display: block;
+}

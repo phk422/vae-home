@@ -1,12 +1,9 @@
 /* pages/index/cpns/navbar/index.wxss */
-.content {
-  position: absolute;
-  left: 30rpx;
-  bottom: 0;
-  display: flex;
-  align-items: center;
+.navbar {
+  position: relative;
+  left: 16rpx;
 }
 
-.logo {
-  width: 100rpx;
+.navbar .logo {
+  width: 96rpx;
 }

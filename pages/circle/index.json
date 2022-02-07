@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "navbar": "/baseui/nav-bar/index",
     "tabbar": "/components/tabbar/index",
     "square": "./square/index",
     "hot": "./hot/index",

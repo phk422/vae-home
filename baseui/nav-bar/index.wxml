@@ -1,0 +1,15 @@
+<!--baseui/nav-bar/index.wxml-->
+<!-- 状态栏高度 -->
+<view class="status" style="height: {{statusBarHeight}}px; background-color: {{backgroundColor}}"></view>
+<view class="nav-bar class" style="background-color: {{backgroundColor}}">
+  <view class="left">
+    <slot name="left"></slot>
+  </view>
+  <view class="center">
+    <view class="center-slot"><slot name="center"></slot></view>
+    <view class="center-title">
+      {{title}}
+    </view>
+  </view>
+  <view class="right"></view>
+</view>

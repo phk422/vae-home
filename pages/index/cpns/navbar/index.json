@@ -1,7 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "navbar": "/components/navbar/index",
+    "navbar": "/baseui/nav-bar/index",
     "scroll-txt": "/components/scroll-txt/index"
   }
 }

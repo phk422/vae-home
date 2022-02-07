@@ -1,7 +1,0 @@
-/* components/navbar/index.wxss */
-.navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
-}
-

@@ -1,7 +1,5 @@
 <!--pages/index/cpns/navbar/index.wxml-->
-<navbar>
-  <view class="content">
-    <image class="logo" src="/assets/img/navbar/vaelogo.png" mode="widthFix"></image>
-    <scroll-txt txt="{{txt}}" />
-  </view>
+<navbar class="navbar">
+  <image slot="left" class="logo" src="/assets/img/navbar/vaelogo.png" mode="widthFix"></image>
+  <scroll-txt slot="center" txt="{{txt}}" />
 </navbar>

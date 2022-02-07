@@ -3,19 +3,13 @@ page {
   background-color: #f5f7fa;
 }
 
-.navbar {
-  display: flex;
-  /* align-items: center; */
-  padding: 16rpx 20rpx 0;
-  background-color: #fff;
-}
-
 .search-icon {
   width: 32rpx;
   height: 32rpx;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAbJJREFUOE+dk79LHEEUx7/fFaNFDqwEU1kYUggpIhbZnT02lV4VNARSWKaJvaJFyBUSAoKlfYqYFAEbQ0hEOHbf3IFwmMYmf4AQDhvvOIXz9oVTc+xtbnOSgSlm3pvPvB/fR6SW53k5kjMAOvsEQFVEfqb9/pyZNLi+v0TlOwA1UEtUTCoQgPg0PDS0UiqVGmlQF+CZ/HdAHyixXI6iL0lHY/xtBV7FDh9VwvAoabsCeF5+DdSXVqKprFCNMQsKbl6cNx9Wq9VmTwqeyR8R8WsR2csCXH/kfyP5XiTc6QKCIBhrtS5/xXF7rFKpnA8AvAWVVmS9CzDGBAq+sRI9+dfjjq2fL4MguNu6bNcdYjyKotqACLaUelYWKfbUwBjfAvpBRLazAIVCYaReb5QB3RCR3R6A6/svqNhwiMdZUdx0ai6dalcHrjFFAk+humqt3U/p4GOsuli2MpIppJsizSv4FUATxDFUcwAnofgMwgX0hxV59peQkhfT08/v5HK1e46jE6raaLeHTw4PD047Pq7xdwiOWgkX+87CoDb2g/QM020ACch9K+HsfwGu65UvioTF39hdtBEjeignAAAAAElFTkSuQmCC) no-repeat;
 }
 
-.tabs {
-  margin-left: 96rpx;
+.navbar-center {
+  position: relative;
+  left: -26rpx;
 }
