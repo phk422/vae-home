@@ -41,7 +41,7 @@
     "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.22.0",
+  "libVersion": "2.10.4",
   "appid": "wx71b1d9801d9f6a94",
   "projectname": "vae%2B",
   "debugOptions": {

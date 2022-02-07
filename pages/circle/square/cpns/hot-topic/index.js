@@ -52,7 +52,6 @@ Component({
           tempArr = []
         }
       }
-      console.log(res)
       this.setData({
         datas: res
       })

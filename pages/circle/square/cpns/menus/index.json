@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon-text": "/components/icon-text/index"
+  }
+}

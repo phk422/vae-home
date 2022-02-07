@@ -1,21 +1,6 @@
 <!--pages/circle/square/index.wxml-->
 <!-- 顶部菜单 -->
-<swiper class="menu-swiper" indicator-dots	indicator-active-color="#3f61e8">
-  <swiper-item class="swiper-item">
-    <view class="menus">
-      <view wx:for="{{8}}" class="item">
-        <icon-text item="{{data}}" />
-      </view>
-    </view>
-  </swiper-item>
-  <swiper-item class="swiper-item">
-    <view class="menus">
-      <view wx:for="{{7}}" class="item">
-        <icon-text item="{{data}}" />
-      </view>
-    </view>
-  </swiper-item>
-</swiper>
+<menus />
 
 <!-- 热门话题 -->
 <hot-topic class="mt" />

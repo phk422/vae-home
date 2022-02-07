@@ -1,7 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "icon-text": "/components/icon-text/index",
+    "menus": "./cpns/menus/index",
     "hot-topic": "./cpns/hot-topic/index"
   }
 }

@@ -1,0 +1,17 @@
+/* pages/circle/square/cpns/menus/menus.wxss */
+.menu-swiper {
+  background-color: #fff;
+  height: 350rpx;
+}
+
+.menu-swiper .swiper-item .menus {
+  display: flex;
+  flex-wrap: wrap;
+  height: 320rpx;
+}
+
+.menu-swiper .swiper-item .item {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}

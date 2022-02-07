@@ -1,6 +1,6 @@
 /* components/icon-text/index.wxss */
 .icon-text {
-  width: 90rpx;
+  /* width: 90rpx; */
   text-align: center;
 }
 
