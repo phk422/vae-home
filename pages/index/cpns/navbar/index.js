@@ -26,7 +26,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-    txt: ""
+    txt: "",
+    navHeight: getApp().globalData.navHeight
   },
 
   lifetimes: {

@@ -1,4 +1,11 @@
 /* pages/index/cpns/navbar/index.wxss */
+.nav {
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+  width: 100%;
+}
+
 .navbar {
   position: relative;
   left: 16rpx;

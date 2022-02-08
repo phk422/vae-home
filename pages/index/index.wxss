@@ -1,8 +1,4 @@
 /**index.wxss**/
-.nav-bar {
-  height: 166rpx;
-}
-
 .oper-bars {
   display: flex;
   justify-content:space-around ;
