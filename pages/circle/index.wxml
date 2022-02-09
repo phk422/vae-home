@@ -1,5 +1,5 @@
 <!--pages/circle/index.wxml-->
-<navbar>
+<navbar fixed>
   <view slot="left" class="search-icon"></view>
   <view slot="center" class="navbar-center">
     <tabbar tabs="{{tabs}}" current="{{currentIndex}}" bind:change-tab="changeTab" />

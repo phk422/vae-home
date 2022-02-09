@@ -1,4 +1,9 @@
 /* baseui/nav-bar/index.wxss */
+.nav {
+  position: fixed;
+  z-index: 999;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;

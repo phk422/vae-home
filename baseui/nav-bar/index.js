@@ -17,6 +17,10 @@ Component({
     backgroundColor: { // 背景色
       type: String,
       value: "#fff"
+    },
+    fixed: { // 是否固定到顶部
+      type: Boolean,
+      value: false
     }
   },
 
