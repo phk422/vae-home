@@ -7,6 +7,10 @@ Component({
     tabs: {
       type: Array,
       value: []
+    },
+    current: {
+      type: Number,
+      value: 0
     }
   },
 
@@ -20,6 +24,17 @@ Component({
   lifetimes: {
     attached: function() {
       this.triggerEvent("change-tab", this.data.activeIndex)
+    }
+  },
+
+  /**
+   * 监听数据变化
+   */
+  observers: {
+    current: function(current) {
+      this.setData({
+        activeIndex: current
+      })
     }
   },
 

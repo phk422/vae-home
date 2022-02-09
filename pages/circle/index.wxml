@@ -2,21 +2,43 @@
 <navbar>
   <view slot="left" class="search-icon"></view>
   <view slot="center" class="navbar-center">
-    <tabbar tabs="{{tabs}}" bind:change-tab="changeTab" />
+    <tabbar tabs="{{tabs}}" current="{{currentIndex}}" bind:change-tab="changeTab" />
   </view>
 </navbar>
 
 <!-- 广场 -->
-<view style="display: {{currentIndex === 0 ? 'block':'none'}}" class="square">
+<!-- <view style="display: {{currentIndex === 0 ? 'block':'none'}}" class="square">
   <square />
-</view>
+</view> -->
 
 <!-- 热门 -->
-<view style="display: {{currentIndex === 1 ? 'block':'none'}}" class="hot">
+<!-- <view style="display: {{currentIndex === 1 ? 'block':'none'}}" class="hot">
   <hot />
-</view>
+</view> -->
 
 <!-- 关注 -->
-<view style="display: {{currentIndex === 2 ? 'block':'none'}}" class="attention">
+<!-- <view style="display: {{currentIndex === 2 ? 'block':'none'}}" class="attention">
   <attention />
-</view>
+</view> -->
+
+<swiper class="content" style="height: {{swiperHeight}}px;" current="{{currentIndex}}" bindchange="handleSwiperChange">
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view wx:for="{{20}}">111111111111111111111</view>
+    </view>
+  </swiper-item>
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view>222</view>
+    </view>
+  </swiper-item>
+  <swiper-item class="item">
+    <view class="swiper-item">
+      <square />
+      <view>333</view>
+      <view>333</view>
+    </view>
+  </swiper-item>
+</swiper>

@@ -10,3 +10,11 @@ export default function querySelector(selector, thisArgs = wx) {
     query.exec(resolve)
   })
 }
+
+export function querySelectorAll(selector, thisArgs = wx) {
+  const query = thisArgs.createSelectorQuery()
+  query.selectAll(selector).boundingClientRect()
+  return new Promise(resolve => {
+    query.exec(resolve)
+  })
+}
