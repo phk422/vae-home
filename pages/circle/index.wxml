@@ -25,20 +25,19 @@
   <swiper-item class="item">
     <view class="swiper-item">
       <square />
-      <view wx:for="{{20}}">111111111111111111111</view>
+      <view>快写一首情歌雅输共赏</view>
     </view>
   </swiper-item>
   <swiper-item class="item">
     <view class="swiper-item">
       <square />
-      <view>222</view>
+      <view>你提过的好地方，我标在地图上</view>
     </view>
   </swiper-item>
   <swiper-item class="item">
     <view class="swiper-item">
       <square />
-      <view>333</view>
-      <view>333</view>
+      <view>飞上枝头的都风趣，占了巢的都在窃喜</view>
     </view>
   </swiper-item>
 </swiper>
